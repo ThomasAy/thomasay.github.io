@@ -23,7 +23,7 @@ function analyseScroll() {
     var scrollLeft = window_width * 0.9;
     var scrollRight = window_width  * 0.1;
     var scroll = 0;
-    var speedSlower = 10;
+    var speedSlower = 20;
     if(!go)
     {
         return true;

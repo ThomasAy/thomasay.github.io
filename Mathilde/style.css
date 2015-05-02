@@ -49,7 +49,7 @@ img {
 }
 
 #fond{
-	background:
+	/*background:
 		radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
 		radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
 		radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
@@ -61,8 +61,10 @@ img {
 		radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
 		radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
 		radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
-	background-color:#b03;
-	background-size:100px 100px;
+		background-color:#b03;
+			background-size:100px 100px;
+*/
+	background-image: url(img/fond2.jpg);
 	width: 100%;
 	height: 80%;
 	position: absolute;
@@ -77,7 +79,7 @@ img {
 	background-size: 100px 100px;
 	background-color: #EC173A;
 
-	width: 10000px;
+	width: 3333px;
 	height: 100%;
 	position: absolute;
 }
