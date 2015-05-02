@@ -1,6 +1,10 @@
 
 window.setInterval("analyseScroll()", 10);
 
+window.onload = function(){
+    document.getElementById("loading").style.zIndex = -999;
+}
+
 var mouse = {x: 0, y: 0};
 var go = false;
 
