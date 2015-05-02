@@ -41,6 +41,7 @@ GameManager.prototype.setup = function () {
   this.over        = false;
   this.won         = false;
   this.keepPlaying = false;
+  this.nbMoves     = 0;
 
   // Add the initial tiles
   this.addStartTiles();
@@ -77,7 +78,8 @@ GameManager.prototype.actuate = function () {
     over:       this.over,
     won:        this.won,
     bestScore:  this.scoreManager.get(),
-    terminated: this.isGameTerminated()
+    terminated: this.isGameTerminated(),
+    nbMoves:    this.nbMoves 
   });
 
 };
@@ -153,6 +155,7 @@ GameManager.prototype.move = function (direction) {
   });
 
   if (moved) {
+    this.nbMoves++;
     this.addRandomTile();
 
     if (!this.movesAvailable()) {
