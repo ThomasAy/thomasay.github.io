@@ -6,12 +6,46 @@ html, body, #fullheight {
 
 body {
     overflow: hidden;
-
 }
 
 h1 {
     color: navy;
     margin-left: 20px;
+}
+
+img {
+	position: fixed;
+	z-index: 2;
+	top: 50%;
+	opacity: 0.4;
+}
+
+#img-right{
+	right: 0px;
+}
+
+.opac{
+	z-index: 1;
+	width: 10%;
+	position: fixed;
+	background-color: grey;
+	height: 100%;
+	opacity: 0.5;
+}
+
+#right{
+  margin-left: 90%;
+  background: -webkit-linear-gradient(right, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Fx 3.6-15*/
+  background: linear-gradient(right, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Standard*/
+}
+
+#left{
+  background: -webkit-linear-gradient(left, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(left, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(left, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Fx 3.6-15*/
+  background: linear-gradient(left, rgba(128,128,128,1), grey 10%, rgba(0,0,0,0)); /*Standard*/
 }
 
 #fond{
@@ -43,7 +77,9 @@ h1 {
 	background-size: 100px 100px;
 	background-color: #EC173A;
 
-	width: 10000px; height: 100%; position: absolute;
+	width: 10000px;
+	height: 100%;
+	position: absolute;
 }
 
 #test {

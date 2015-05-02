@@ -2,10 +2,12 @@
 window.setInterval("analyseScroll()", 10);
 
 var mouse = {x: 0, y: 0};
+var go = false;
 
 document.addEventListener('mousemove', function(e){
     mouse.x = e.clientX || e.pageX;
     mouse.y = e.clientY || e.pageY;
+    go = true;
 }, false);
 
 
@@ -22,6 +24,10 @@ function analyseScroll() {
     var scrollRight = window_width  * 0.1;
     var scroll = 0;
     var speedSlower = 10;
+    if(!go)
+    {
+        return true;
+    }
 
     if(mouse.x > scrollLeft)
     {
