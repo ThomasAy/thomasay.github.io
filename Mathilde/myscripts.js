@@ -25,12 +25,12 @@ function analyseScroll() {
 
     if(mouse.x > scrollLeft)
     {
-        scroll = (mouse.x - scrollLeft)/speedSlower;
+        scroll = Math.round((mouse.x - scrollLeft)/speedSlower);
         document.getElementById("test").innerHTML = scroll + "=>";
     }
     else if(mouse.x < scrollRight)
     {
-        scroll = -(scrollRight - mouse.x)/speedSlower;
+        scroll = Math.round(-(scrollRight - mouse.x)/speedSlower);
         document.getElementById("test").innerHTML = "<=" + scroll;
 
     }
