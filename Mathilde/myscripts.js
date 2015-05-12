@@ -14,10 +14,6 @@ document.addEventListener('mousemove', function(e){
     go = true;
 }, false);
 
-
-// Main function to retrieve mouse x-y pos.s
-
-
 function analyseScroll() {
 
     document.getElementById("test").style.marginLeft = mouse.x + "px";
@@ -47,6 +43,10 @@ function analyseScroll() {
     window.scrollBy(scroll, 0);
     return true
 }
+
+$("#test").click(function () {
+    alert("123");
+});
 
 
 
