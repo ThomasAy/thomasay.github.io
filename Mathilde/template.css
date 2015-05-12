@@ -6,12 +6,12 @@ html, body, #fullheight {
 
 @font-face {
   font-family: 'MyWebFont';
-  src: url('Fontana_ND_Cc_SC_Light.otf'); /* IE9 Compat Modes */
-  src: url('Fontana_ND_Cc_SC_Light.otf') format('embedded-opentype'), /* IE6-IE8 */
-       url('Fontana_ND_Cc_SC_Light.otf') format('woff2'), /* Super Modern Browsers */
-       url('Fontana_ND_Cc_SC_Light.otf') format('woff'), /* Pretty Modern Browsers */
-       url('Fontana_ND_Cc_SC_Light.otf')  format('truetype'), /* Safari, Android, iOS */
-       url('Fontana_ND_Cc_SC_Light.otf') format('svg'); /* Legacy iOS */
+  src: url('Fontana_ND_Ee_OsF_Light.otf'); /* IE9 Compat Modes */
+  src: url('Fontana_ND_Ee_OsF_Light.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fontana_ND_Ee_OsF_Light.otf') format('woff2'), /* Super Modern Browsers */
+       url('Fontana_ND_Ee_OsF_Light.otf') format('woff'), /* Pretty Modern Browsers */
+       url('Fontana_ND_Ee_OsF_Light.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fontana_ND_Ee_OsF_Light.otf') format('svg'); /* Legacy iOS */
 }
 
 body {
