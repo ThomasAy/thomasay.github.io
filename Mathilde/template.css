@@ -32,13 +32,25 @@ body {
 #titre{
 	width: 100%;
 	font-weight: bold;
-	font-size:3vw;
+	font-size:2.5vw;
+}
+
+#contenu{
+	width: 50%;
+}
+
+#buttons{
+	display: inline-block;
+	width: 50%;
+}
+
+#liens{
+	width: 50%;
 }
 
 p{
 	text-align: justify;
-	font-size: 2vw;
-	width: 50%;
+	font-size: 1.5vw;
 	float: left;
 	display: block;
 	padding: 20px;
@@ -59,7 +71,6 @@ a{
 button{
 	margin-left: 40px;
 	margin-top: 20px;
-	display: inline-block;
 
 	border-radius: 2px;
 	border-color: grey;
