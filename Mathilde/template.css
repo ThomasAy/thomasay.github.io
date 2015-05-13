@@ -19,6 +19,7 @@ body {
 	font-weight: lighter;
 	font-size: 2vw;
 	overflow: hidden;
+	background-color: white;
 }
 
 #prez{
@@ -36,16 +37,21 @@ body {
 }
 
 #contenu{
-	width: 50%;
+	width: 45%;
+	height: 33%;
+	display: inline-block;
 }
 
 #buttons{
 	display: inline-block;
-	width: 50%;
+	width: 60%;
 }
 
 #liens{
-	width: 50%;
+	width: 40%;
+	display: inline-block;
+	float: right;
+
 }
 
 p{
@@ -60,12 +66,17 @@ hr{
 	clear: both;
 }
 
+#stuff{
+	width: 45%;
+	display: inline-block;
+}
+
 a{
 	float: left;
 	color: black;
-	margin-left: 40px;
 	margin-top: 20px;
 	font-size: 1.5vw;
+	clear: both;
 }
 
 button{
@@ -76,7 +87,7 @@ button{
 	border-color: grey;
 	text-align: center;
 	height: 3vw;
-	width: 40%;
+	width: 80%;
 	padding: 8px 18px;
 	font-size: 1.5vw;
 	font-family: "MyWebFont";
@@ -85,6 +96,10 @@ button{
 	text-decoration: none;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+#owl-demo {
+  margin-top: 5%;
 }
 
 #owl-demo .item{

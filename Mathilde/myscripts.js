@@ -48,6 +48,27 @@ $("#test").click(function () {
     alert("123");
 });
 
+function showIFrame(url)
+{
+    var container = document.getElementById('con');
+    var iframebox = document.getElementById('iframebox');
+    iframebox.src=url;
+    container.style.display = 'block';
+    iframebox.style.display = 'block';
+    container.style.zIndex = "1";
+    iframebox.style.zIndex = "1";
+}
+
+function closeIFrame(){
+    var container = document.getElementById('con');
+    var iframebox = document.getElementById('iframebox');
+    iframebox.src="";
+    container.style.display = 'none';
+    iframebox.style.display = 'none';
+    container.style.zIndex = "1";
+    iframebox.style.zIndex = "1";
+}
+
 
 
 
