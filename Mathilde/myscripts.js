@@ -1,6 +1,3 @@
-
-window.setInterval("analyseScroll()", 10);
-
 window.onload = function(){
     document.getElementById("loading").style.zIndex = -999;
 }
@@ -13,6 +10,9 @@ document.addEventListener('mousemove', function(e){
     mouse.y = e.clientY || e.pageY;
     go = true;
 }, false);
+
+
+// window.setInterval("analyseScroll()", 10);
 
 function analyseScroll() {
 
@@ -44,10 +44,6 @@ function analyseScroll() {
     return true
 }
 
-$("#test").click(function () {
-    alert("123");
-});
-
 function showIFrame(url)
 {
     var container = document.getElementById('con');
@@ -68,7 +64,3 @@ function closeIFrame(){
     container.style.zIndex = "1";
     iframebox.style.zIndex = "1";
 }
-
-
-
-
